@@ -3,6 +3,7 @@
 #### Quick Start
 
 **1. Modify you local dns**
+
 Add following 2 lines in your host config(usually `/etc/hosts`):
 
 ```
@@ -23,7 +24,7 @@ Add following 2 lines in your host config(usually `/etc/hosts`):
 ❯ curl --insecure https://a.example.com
 Greeting from App 1
 
-# Request "b.example.com" should receive greeting from App 1
+# Request "b.example.com" should receive greeting from App 2
 ❯ curl --insecure https://b.example.com
 Greeting from App 2!
 ```
